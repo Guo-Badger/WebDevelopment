@@ -1,1 +1,0 @@
-# Owner: Guo Yu
