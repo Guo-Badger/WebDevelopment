@@ -4,8 +4,10 @@
 
 <html>
 	<head>
-		
-
+		<title>Hydroclimate Extremes Research Group</title>
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
 	</head>
@@ -55,7 +57,15 @@
 		</header>
 		
 		<div class="main-container">
-			
+			<div class="carousel-homepage">
+				
+			</div>
+			<div class="sub-container">
+				
+			</div>
+			<div class="home-news">
+				
+			</div>
 		</div>
 
 
