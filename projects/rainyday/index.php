@@ -30,7 +30,7 @@
 					<ul class="nav navbar-nav">
 						<li><a href="http://10.141.89.2/WebDevelopment/"><b>Home</b></a></li>
 						<li><a href="http://10.141.89.2/WebDevelopment/groupmembers"><b>Group Members</b></a></li>
-						      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>Projects</b><span class="caret"></span></a>
+						      <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>Projects</b><span class="caret"></span></a>
 						        <ul class="dropdown-menu">
 						          <li><a href="#">RainyDay: Rainfall for Modern Flood Hazard Assessment</a></li>
 						          <li><a href="http://10.141.89.2/WebDevelopment/projects/landslide-modelling">Regional Landslide Modeling</a></li>
