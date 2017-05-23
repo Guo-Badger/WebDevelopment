@@ -22,7 +22,7 @@
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
            	 		</button>
-            		<a class="navbar-brand" href="#">Hydroclimate Extremes Research Group</a>
+            		<a class="navbar-brand" href="http://10.141.89.2/WebDevelopment/">Hydroclimate Extremes Research Group</a>
 				</div>
 
 				<!-- Navbar Links -->
