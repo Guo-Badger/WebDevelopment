@@ -47,28 +47,161 @@
 			</div>
 		</header>
 		
-		<!-- Navbar Infomation -->
+		<br>
+		<!-- Rainyday Form -->
 		<div class="container">
-			<p class="navabr-navbar-info">Rainy Day</p>
-		</div>
-		
-	
+		  <form class="rainyday-form">
+		  	<br>
 
-		<!-- Homepage Maincontent -->
-		<div class="container">
-			<div class="maincontent">
-				<p><span class="firstword">Welcome</span> to the homepage of the Hydroclimate Extremes Research Group, part of the Civil and Environmental Engineering Department at the University of Wisconsin. We work in a number of research areas, including:</p>
-				<ul>
-					<li>Measurement, modeling, and analysis of extreme rainfall at high resolution using a variety of sources including rain gages, ground-based weather radar, satellite-based sensors, and numerical weather and climate models.</li>
-					<br>
-					<li>Understanding the role of rainfall and soil moisture variability and structure and their interactions with watershed properties to produce floods at a wide range of scales using high-resolution multi-scale supercomputer-based watershed models.</li>
-					<br>
-					<li>Interfacing with meteorologists and climate scientists to translate projected changes in extreme precipitation from regional and global climate models into projections of future risks.</li>
-					<br>
-					<li>Developing practical tools for improved probabilistic flood hazard and risk estimation, including in urban areas, ungaged watersheds, and developing countries.</li>
-				</ul>
-			</div>
+				<fieldset class="form-group row">
+			      <label class="col-2 col-form-label">1. Define rainfall input dataset.</label>
+			      <div class="col-sm-10">
+			        <div class="form-check">
+			          <label class="form-check-label">
+			            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+			            NLDAS
+			          </label>
+			        </div>
+			        <div class="form-check">
+			          <label class="form-check-label">
+			            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+			            Stage IV
+			          </label>
+			        </div>
+			      </div>
+    			</fieldset>
+
+
+			    <div class="form-group row">
+				  <label for="duration" class="col-2 col-form-label">2. Define the duration of rainfall accumulation period in hours.</label>
+				  <div class="col-10">
+				    <input class="form-control" type="number" min=0 id="duration">
+				  </div>
+			    </div>
+
+
+			    <div class="form-group row">
+				  <label for="nstorms" class="col-2 col-form-label">3. Define how many storms to include in the process.</label>
+				  <div class="col-10">
+				    <input class="form-control" type="number" min=0 id="nstorms">
+				  </div>
+			    </div>
+
+			    <div class="form-group row">
+				  <label for="nyears" class="col-2 col-form-label">4. Define how many years of annual maxima rainfall to be synthesized.</label>
+				  <div class="col-10">
+				    <input class="form-control" type="number" min=0 id="nyears">
+				  </div>
+			    </div>
+
+			    <div class="form-group row">
+				  <label for="nrealizations" class="col-2 col-form-label">5. Define how many years of long sequences to be generated.</label>
+				  <div class="col-10">
+				    <input class="form-control" type="number" min=0 id="nrealizations">
+				  </div>
+			    </div>
+
+			    <div class="form-group row">
+				  <label for="timeseparation" class="col-2 col-form-label">6. Define the minimum separation time in hours between two storms in the storm catalog</label>
+				  <div class="col-10">
+				    <input class="form-control" type="number" min=0 id="timeseparation">
+				  </div>
+			    </div>
+
+				<fieldset class="form-group row">
+			      <label class="col-2 col-form-label">7. Frequency Analysis. (Create a ".FreqAnalysis" file)</label>
+			      <div class="col-sm-10">
+			        <div class="form-check">
+			          <label class="form-check-label">
+			            <input class="form-check-input" type="radio" name="gridRadios" id="freqanalysis1">
+			            YES
+			          </label>
+			        </div>
+			        <div class="form-check">
+			          <label class="form-check-label">
+			            <input class="form-check-input" type="radio" name="gridRadios" id="freqanalysis2" >
+			            NO
+			          </label>
+			        </div>
+			      </div>
+    			</fieldset>
+
+				
+			    <div class="form-group row">
+				  <label for="excludemonths" class="col-2 col-form-label">8. Define months(1-2 digit numeric) to be excluded from the storm catalog creation. </label>
+				  <div class="col-10">
+				    <input class="form-control" type="text" id="excludemonths" placeholder="Examples:10 or 8,9 or 9-12">
+				  </div>
+			    </div>
+
+			    <div class="form-group row">
+				  <label for="excludemonths" class="col-2 col-form-label">9. Define months(1-2 digit numeric) to be excluded from the storm catalog creation. </label>
+				  <div class="col-10">
+				    <input class="form-control" type="text" id="excludemonths" placeholder="Examples:10 or 8,9 or 9-12">
+				  </div>
+			    </div>
+
+
+			    <div class="form-group row">
+				  <label class="col-2 col-form-label">10. Define start and end year. (Availabe from 1980-2015) </label>
+				  <br>
+				  <div class="col-sm-4 ">
+				    <input class="form-control" type="number" id="startyear" placeholder="Start Year (eg: 1973)">
+				  </div>
+				  <div class="col-sm-4">
+				    <input class="form-control" type="number" id="endyear" placeholder="End Year (eg: 2010)">
+				  </div>
+			    </div>
+
+
+				<fieldset class="form-group row">
+			      <label class="col-2 col-form-label">11. Define the catchment. (Area of interest) </label>
+			      <div class="col-sm-10">
+			        <div class="form-check">
+			          <label class="form-check-label">
+			            <input class="form-check-input" type="radio" name="gridRadios" id="catchment1">
+			            Point Area
+			          </label>
+			        </div>
+			        <div class="form-check">
+			          <label class="form-check-label">
+			            <input class="form-check-input" type="radio" name="gridRadios" id="catchment2" >
+			            Bounding box
+			          </label>
+			        </div>
+			        <div class="form-check">
+			          <label class="form-check-label">
+			            <input class="form-check-input" type="radio" name="gridRadios" id="catchment3" >
+			            Upload the shape file
+			          </label>
+			        </div>
+			      </div>
+    			</fieldset>
+
+
+				<div class="form-group row">
+				  <label for="client-email" class="col-2 col-form-label">12. Email Address. (Simulation outputs will be sent to your email address.)</label>
+				  <div class="col-10">
+				    <input class="form-control" type="email" placeholder="badger@example.com" id="client-email">
+				  </div>
+				</div>
+
+				<div class="form-group row">
+				  <label for="client-email" class="col-2 col-form-label">13. Run Rainy Day simulation.</label>
+				  <div class="col-10">
+				  	<button type="submit" class="btn btn-primary">Run Rainy Day</button>
+				  </div>
+				</div>
+
+				<br>
+				<br>
+				<br>
+				<br>
+
+
+		  </form>
 		</div>
+		<br>
 
 	</body>
 
