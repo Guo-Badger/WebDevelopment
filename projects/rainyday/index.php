@@ -47,6 +47,11 @@
 			</div>
 		</header>
 		
+				<!-- Navbar Infomation -->
+		<div class="container">
+			<p class="navabr-navbar-info">Rainy Day: A Modern, Open Source rianfall infomation system</p>
+		</div>
+		
 		<br>
 		<!-- Rainyday Form -->
 		<div class="container">
