@@ -49,7 +49,7 @@
 		
 		<!-- Navbar Infomation -->
 		<div class="container">
-			<p class="navabr-navbar-info">Hydroclimate Extremes Research Group</p>
+			<p class="navabr-navbar-info">Rainy Day</p>
 		</div>
 		
 	
