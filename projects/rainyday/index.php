@@ -67,13 +67,13 @@
 			      <div class="col-sm-10">
 			        <div class="form-check">
 			          <label class="form-check-label">
-			            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" required>
+			            <input class="form-check-input" type="radio" name="dataset" id="gridRadios1" value="option1" required>
 			            NLDAS
 			          </label>
 			        </div>
 			        <div class="form-check">
 			          <label class="form-check-label">
-			            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" >
+			            <input class="form-check-input" type="radio" name="dataset" id="gridRadios2" value="option2" >
 			            Stage IV
 			          </label>
 			        </div>
@@ -84,7 +84,7 @@
 			    <div class="form-group row">
 				  <label for="duration" class="col-2 col-form-label">2. Define the duration of rainfall accumulation period in hours.</label>
 				  <div class="col-10">
-				    <input class="form-control" type="number" min=0 id="duration" required>
+				    <input class="form-control" type="number" min=0 name="duration" id="duration" required>
 				  </div>
 			    </div>
 
@@ -92,28 +92,28 @@
 			    <div class="form-group row">
 				  <label for="nstorms" class="col-2 col-form-label">3. Define how many storms to include in the process.</label>
 				  <div class="col-10">
-				    <input class="form-control" type="number" min=0 id="nstorms" required>
+				    <input class="form-control" type="number" min=0 name="nstorms" id="nstorms" required>
 				  </div>
 			    </div>
 
 			    <div class="form-group row">
 				  <label for="nyears" class="col-2 col-form-label">4. Define how many years of annual maxima rainfall to be synthesized.</label>
 				  <div class="col-10">
-				    <input class="form-control" type="number" min=0 id="nyears" required>
+				    <input class="form-control" type="number" min=0 name="nyears" id="nyears" required>
 				  </div>
 			    </div>
 
 			    <div class="form-group row">
 				  <label for="nrealizations" class="col-2 col-form-label">5. Define how many years of long sequences to be generated.</label>
 				  <div class="col-10">
-				    <input class="form-control" type="number" min=0 id="nrealizations" required>
+				    <input class="form-control" type="number" min=0 name="nrealizations" id="nrealizations" required>
 				  </div>
 			    </div>
 
 			    <div class="form-group row">
 				  <label for="timeseparation" class="col-2 col-form-label">6. Define the minimum separation time in hours between two storms in the storm catalog.</label>
 				  <div class="col-10">
-				    <input class="form-control" type="number" min=0 id="timeseparation" required>
+				    <input class="form-control" type="number" min=0 name="timeseparation" id="timeseparation" required>
 				  </div>
 			    </div>
 
@@ -139,32 +139,25 @@
 			    <div class="form-group row">
 				  <label for="excludemonths" class="col-2 col-form-label">8. Define months(1-2 digit numeric) to be excluded from the storm catalog creation. </label>
 				  <div class="col-10">
-				    <input class="form-control" type="text" id="excludemonths" placeholder="Examples:10 or 8,9 or 9-12" required>
-				  </div>
-			    </div>
-
-			    <div class="form-group row">
-				  <label for="excludemonths" class="col-2 col-form-label">9. Define months(1-2 digit numeric) to be excluded from the storm catalog creation. </label>
-				  <div class="col-10">
-				    <input class="form-control" type="text" id="excludemonths" placeholder="Examples:10 or 8,9 or 9-12" required>
+				    <input class="form-control" type="text" name="excludemonths" id="excludemonths" placeholder="Examples:10 or 8,9 or 9-12" required>
 				  </div>
 			    </div>
 
 
 			    <div class="form-group row">
-				  <label class="col-2 col-form-label">10. Define start and end year. (Availabe from 1979-2015) </label>
+				  <label class="col-2 col-form-label">9. Define start and end year. (Availabe from 1979-2015) </label>
 				  <br>
 				  <div class="col-sm-4 ">
-				    <input class="form-control" type="number" min="1979" max="2015" id="startyear" placeholder="Start Year (eg: 1979)" required>
+				    <input class="form-control" type="number" min="1979" max="2015" name="startyear" id="startyear" placeholder="Start Year (eg: 1979)" required>
 				  </div>
 				  <div class="col-sm-4">
-				    <input class="form-control" type="number" min="1979" max="2015" id="endyear" placeholder="End Year (eg: 2010)" required>
+				    <input class="form-control" type="number" min="1979" max="2015" name="endyear" id="endyear" placeholder="End Year (eg: 2010)" required>
 				  </div>
 			    </div>
 
 
 				<fieldset class="form-group row">
-			      <label class="col-2 col-form-label">11. Define the catchment. (Area of interest) </label>
+			      <label class="col-2 col-form-label">10. Define the catchment. (Area of interest) </label>
 			      <div class="col-sm-10">
 			        <div class="form-check">
 			          <label class="form-check-label">
@@ -189,14 +182,14 @@
 
 
 				<div class="form-group row">
-				  <label for="client-email" class="col-2 col-form-label">12. Email Address. (Simulation outputs will be sent to your email address.)</label>
+				  <label for="client-email" class="col-2 col-form-label">11. Email Address. (Simulation outputs will be sent to your email address.)</label>
 				  <div class="col-10">
-				    <input class="form-control" type="email" placeholder="badger@example.com" id="client-email" required>
+				    <input class="form-control" type="email" placeholder="badger@example.com" name="client-email" id="client-email" required>
 				  </div>
 				</div>
 
 				<div class="form-group row">
-				  <label for="client-email" class="col-2 col-form-label">13. Run Rainy Day simulation.</label>
+				  <label for="client-email" class="col-2 col-form-label">12. Run Rainy Day simulation.</label>
 				  <div class="col-10">
 				  	<button type="submit" class="btn btn-primary">Run Rainy Day</button>
 				  </div>
