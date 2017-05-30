@@ -1,7 +1,5 @@
 
-<?php
-	echo $_POST['nstorms'];
-?>
+
 
 
 
@@ -240,3 +238,8 @@
 	</footer>
 
 </html>
+
+
+<?php
+	echo $_POST['nstorms'];
+?>
