@@ -1,11 +1,3 @@
-
-<?php
-	echo $_POST['nstorms'];
-?>
-
-
-
-
 <html>
 	<head>
 		<title>Hydroclimate Extremes Research Group</title>
@@ -59,7 +51,7 @@
 		<br>
 		<!-- Rainyday Form -->
 		<div class="container">
-		  <form class="rainyday-form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"> 
+		  <form class="rainyday-form" method="post" action="function.php"> 
 		  	<br>
 
 				<fieldset class="form-group row">
