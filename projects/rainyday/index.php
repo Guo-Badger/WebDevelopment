@@ -59,7 +59,7 @@
 		<br>
 		<!-- Rainyday Form -->
 		<div class="container">
-		  <form class="rainyday-form" method="post"> action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
+		  <form class="rainyday-form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"> 
 		  	<br>
 
 				<fieldset class="form-group row">
