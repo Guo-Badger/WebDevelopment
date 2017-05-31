@@ -26,10 +26,10 @@
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
 						<li><a href="http://10.141.89.2/WebDevelopment/"><b>Home</b></a></li>
-						<li class="active"><a href="http://10.141.89.2/WebDevelopment/groupmembers"><b>Group Members</b></a></li>
+						<li class="active"><a href="#"><b>Group Members</b></a></li>
 						      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>Projects</b><span class="caret"></span></a>
 						        <ul class="dropdown-menu">
-						          <li><a href="#">RainyDay: Rainfall for Modern Flood Hazard Assessment</a></li>
+						          <li><a href="http://10.141.89.2/WebDevelopment/projects/rainyday">RainyDay: Rainfall for Modern Flood Hazard Assessment</a></li>
 						          <li><a href="http://10.141.89.2/WebDevelopment/projects/landslide-modelling">Regional Landslide Modeling</a></li>
 						          <li><a href="http://10.141.89.2/WebDevelopment/projects/tropical-cyclones">Tropical Cyclones, Flooding, and the Regional Hydroclimate</a></li>
 						          <li><a href="http://10.141.89.2/WebDevelopment/projects/remote-sensing">Rainfall remote sensing for hydrology</a></li>
