@@ -112,3 +112,75 @@ footer a {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team-alignleft{
+    overflow: hidden;
+    position: relative;
+    padding: 48px 30px 53px;
+    border-bottom: 2px solid #8f8d87;
+
+}
+.team-alignright{
+    overflow: hidden;
+    position: relative;
+    padding: 48px 30px 53px;
+    border-bottom: 2px solid #8f8d87;
+
+}
+
+.text-box {
+    overflow: hidden;
+    position: relative;
+}
+
+.team-alignleft .teamimage{
+    border-top-left-radius: 132px;
+    border-top-right-radius: 132px;
+    border-bottom-right-radius: 132px;
+    border-bottom-left-radius: 132px;
+    position: relative;
+    vertical-align: top;
+	float:left;
+	margin-right:150px;
+	margin-top:50px;
+
+}
+
+.team-alignright .teamimage{
+    border-top-left-radius: 132px;
+    border-top-right-radius: 132px;
+    border-bottom-right-radius: 132px;
+    border-bottom-left-radius: 132px;
+    position: relative;
+    vertical-align: top;
+	float:right;
+	margin-left:150px;
+	margin-top:50px
+}
