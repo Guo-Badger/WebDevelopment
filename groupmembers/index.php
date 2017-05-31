@@ -1,7 +1,6 @@
-<?php
-?>
+<?php 
 
-
+ ?>
 
 <html>
 	<head>
