@@ -76,7 +76,9 @@ footer div .col {
 footer .container{
 	margin-right:20px;
     margin-left: 20px;
-	width:95%
+	width:95%;
+	margin-right: auto;
+    margin-left: auto;
 }
 
 
