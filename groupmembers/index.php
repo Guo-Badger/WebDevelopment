@@ -19,25 +19,25 @@
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
            	 		</button>
-            		<a class="navbar-brand" href="http://10.141.89.2/WebDevelopment/">Hydroclimate Extremes Research Group</a>
+            		<a class="navbar-brand" href="../">Hydroclimate Extremes Research Group</a>
 				</div>
 
 				<!-- Navbar Links -->
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li><a href="http://10.141.89.2/WebDevelopment/"><b>Home</b></a></li>
+						<li><a href="../"><b>Home</b></a></li>
 						<li class="active"><a href="#"><b>Group Members</b></a></li>
 						      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>Projects</b><span class="caret"></span></a>
 						        <ul class="dropdown-menu">
-						          <li><a href="http://10.141.89.2/WebDevelopment/projects/rainyday">RainyDay: Rainfall for Modern Flood Hazard Assessment</a></li>
-						          <li><a href="http://10.141.89.2/WebDevelopment/projects/landslide-modelling">Regional Landslide Modeling</a></li>
-						          <li><a href="http://10.141.89.2/WebDevelopment/projects/tropical-cyclones">Tropical Cyclones, Flooding, and the Regional Hydroclimate</a></li>
-						          <li><a href="http://10.141.89.2/WebDevelopment/projects/remote-sensing">Rainfall remote sensing for hydrology</a></li>
-						          <li><a href="http://10.141.89.2/WebDevelopment/projects/urbanization">Urbanization and Hydrologic Change</a></li>
+						          <li><a href="../projects/rainyday">RainyDay: Rainfall for Modern Flood Hazard Assessment</a></li>
+						          <li><a href="../projects/landslide-modelling">Regional Landslide Modeling</a></li>
+						          <li><a href="../projects/tropical-cyclones">Tropical Cyclones, Flooding, and the Regional Hydroclimate</a></li>
+						          <li><a href="../projects/remote-sensing">Rainfall remote sensing for hydrology</a></li>
+						          <li><a href="../projects/urbanization">Urbanization and Hydrologic Change</a></li>
 						        </ul>
 						      </li>
-						<li><a href="http://10.141.89.2/WebDevelopment/publications"><b>Publications</b></a></li>
-						<li><a href="http://10.141.89.2/WebDevelopment/collaborators"><b>Collaborators</b></a></li>
+						<li><a href="../publications"><b>Publications</b></a></li>
+						<li><a href="../collaborators"><b>Collaborators</b></a></li>
 					</ul>
 				</div>
 
@@ -63,7 +63,7 @@
 
 			<div class="team-alignleft">
 				<div>
-					<img class="teamimage" src="http://10.141.89.2/WebDevelopment/images/team/DanielWright.jpg">
+					<img class="teamimage" src="../images/team/DanielWright.jpg">
 				</div>
 				<div class="text-box">
 					<h2>Daniel Wright, PhD</h2>
@@ -91,7 +91,7 @@
 
 			<div class="team-alignright">
 				<div>
-					<img class="teamimage" src="http://10.141.89.2/WebDevelopment/images/team/ChrisBosma.jpg">
+					<img class="teamimage" src="../images/team/ChrisBosma.jpg">
 				</div>
 				<div class="text-box">
 					<h2>Chris Bosma</h2>
@@ -112,7 +112,7 @@
 			</div>
 			<div class="team-alignleft">
 				<div>
-					<img class="teamimage" src="http://10.141.89.2/WebDevelopment/images/team/GuoYu.jpg">
+					<img class="teamimage" src="../images/team/GuoYu.jpg">
 				</div>
 				<div class="text-box">
 					<h2>Guo Yu</h2>
@@ -140,7 +140,7 @@
 
 			<div class="team-alignright">
 				<div>
-					<img class="teamimage" src="http://10.141.89.2/WebDevelopment/images/team/AlexaSampson.png">
+					<img class="teamimage" src="../images/team/AlexaSampson.png">
 				</div>
 				<div class="text-box">
 					<h2>Alexa Sampson</h2>
@@ -162,7 +162,7 @@
 
 			<div class="team-alignleft">
 				<div>
-					<img class="teamimage" src="http://10.141.89.2/WebDevelopment/images/team/AllisonLobue.jpg">
+					<img class="teamimage" src="../images/team/AllisonLobue.jpg">
 				</div>
 				<div class="text-box">
 					<h2>Allison Lobue</h2>
@@ -193,7 +193,7 @@
 		<div class="collapse navbar-collapse">
 		<div class="container">
 			<div class="col">
-				<img src="http://10.141.89.2/WebDevelopment/images/home-uwlogo.png" style=" padding: 15px">
+				<img src="../images/home-uwlogo.png" style=" padding: 15px">
 			</div>
 			
 			<div class="col">

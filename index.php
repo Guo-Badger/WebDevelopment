@@ -32,15 +32,15 @@
 						<li><a href="groupmembers"><b>Group Members</b></a></li>
 						      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>Projects</b><span class="caret"></span></a>
 						        <ul class="dropdown-menu">
-						          <li><a href="http://10.141.89.2/WebDevelopment/projects/rainyday">RainyDay: Rainfall for Modern Flood Hazard Assessment</a></li>
-						          <li><a href="http://10.141.89.2/WebDevelopment/projects/landslide-modelling">Regional Landslide Modeling</a></li>
-						          <li><a href="http://10.141.89.2/WebDevelopment/projects/tropical-cyclones">Tropical Cyclones, Flooding, and the Regional Hydroclimate</a></li>
-						          <li><a href="http://10.141.89.2/WebDevelopment/projects/remote-sensing">Rainfall remote sensing for hydrology</a></li>
-						          <li><a href="http://10.141.89.2/WebDevelopment/projects/urbanization">Urbanization and Hydrologic Change</a></li>
+						          <li><a href="projects/rainyday">RainyDay: Rainfall for Modern Flood Hazard Assessment</a></li>
+						          <li><a href="projects/landslide-modelling">Regional Landslide Modeling</a></li>
+						          <li><a href="projects/tropical-cyclones">Tropical Cyclones, Flooding, and the Regional Hydroclimate</a></li>
+						          <li><a href="projects/remote-sensing">Rainfall remote sensing for hydrology</a></li>
+						          <li><a href="projects/urbanization">Urbanization and Hydrologic Change</a></li>
 						        </ul>
 						      </li>
-						<li><a href="http://10.141.89.2/WebDevelopment/publications"><b>Publications</b></a></li>
-						<li><a href="http://10.141.89.2/WebDevelopment/collaborators"><b>Collaborators</b></a></li>
+						<li><a href="publications"><b>Publications</b></a></li>
+						<li><a href="collaborators"><b>Collaborators</b></a></li>
 					</ul>
 				</div>
 
@@ -140,7 +140,7 @@
 		<div class="collapse navbar-collapse">
 		<div class="container">
 			<div class="col">
-				<img src="http://10.141.89.2/WebDevelopment/images/home-uwlogo.png" style=" padding: 15px">
+				<img src="images/home-uwlogo.png" style=" padding: 15px">
 			</div>
 			
 			<div class="col">
