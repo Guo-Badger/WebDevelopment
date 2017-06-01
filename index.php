@@ -8,7 +8,7 @@
   		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  		<link rel="stylesheet" type="text/css" href="http://10.141.89.2/WebDevelopment/css/custom.css">
+  		<link rel="stylesheet" type="text/css" href="css/custom.css">
 	</head>
 	
 
@@ -22,14 +22,14 @@
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
            	 		</button>
-            		<a class="navbar-brand" href="http://10.141.89.2/WebDevelopment/">Hydroclimate Extremes Research Group</a>
+            		<a class="navbar-brand" href="#">Hydroclimate Extremes Research Group</a>
 				</div>
 
 				<!-- Navbar Links -->
 				<div class="collapse navbar-collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="http://10.141.89.2/WebDevelopment/"><b>Home</b></a></li>
-						<li><a href="http://10.141.89.2/WebDevelopment/groupmembers"><b>Group Members</b></a></li>
+						<li class="active"><a href="#"><b>Home</b></a></li>
+						<li><a href="groupmembers"><b>Group Members</b></a></li>
 						      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>Projects</b><span class="caret"></span></a>
 						        <ul class="dropdown-menu">
 						          <li><a href="http://10.141.89.2/WebDevelopment/projects/rainyday">RainyDay: Rainfall for Modern Flood Hazard Assessment</a></li>
