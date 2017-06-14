@@ -227,7 +227,7 @@
 		</div>
 		</div>
 		<div class="copyright">
-			<p>© 2017 University of Wisconsin Madison</p>
+			<p>University of Wisconsin Madison</p>
 		</div>
 	</footer>
 

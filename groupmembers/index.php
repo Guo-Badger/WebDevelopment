@@ -67,8 +67,8 @@
 				</div>
 				<div class="text-box">
 					<h2>Daniel Wright, PhD</h2>
-					<p> <strong>Assistant Professor</strong> </p>
-		
+					<p> <strong>Assistant Professor   <a href= "DBWright_CV_updated.pdf">CV</a></strong> </p>
+			
 					<h4>Education:</h4>
 					<p>PhD, Princeton University, 2009-2013<br />
 					   MSE, University of Michigan, 2005<br />
@@ -107,7 +107,7 @@
 					 </p>
 					
 					<h4>Bio:</h4>
-					<p> Christopher comes to the University of Wisconsin-Madison from Atlanta, GA, where he previously served as a research technician and lab manager for Dr. Kim Cobb’s paleoclimate and climate change laboratory at the Georgia Institute of Technology. His previous research utilized stable water isotope measurements to analyze precipitation trends and variability at the lab’s field site in Gunung Mulu National Park on the island of Borneo. Christopher also served as a student volunteer at the local National Weather Service forecast office in Peachtree City, GA, where he developed a twenty-five-year climatological survey of roadway “black ice” events in the Atlanta metropolitan area. He is a 2015 graduate of the School of Earth and Atmospheric Sciences at Georgia Tech. </p>
+					<p> Christopher comes to the University of Wisconsin-Madison from Atlanta, GA, where he previously served as a research technician and lab manager for Dr. Kim Cobb's paleoclimate and climate change laboratory at the Georgia Institute of Technology. His previous research utilized stable water isotope measurements to analyze precipitation trends and variability at the lab's field site in Gunung Mulu National Park on the island of Borneo. Christopher also served as a student volunteer at the local National Weather Service forecast office in Peachtree City, GA, where he developed a twenty-five-year climatological survey of roadway "black ice" events in the Atlanta metropolitan area. He is a 2015 graduate of the School of Earth and Atmospheric Sciences at Georgia Tech. </p>
 				</div>
 			</div>
 			<div class="team-alignleft">
@@ -147,7 +147,7 @@
 					<p> <strong>Master</strong> </p>
 		
 					<h4>Education:</h4>
-					<p>University of Wisconsin-Madison, 2015</p>
+					<p>BS, University of Wisconsin-Madison, 2015</p>
 
 					<h4>Contact:</h4>
 					<p>
@@ -156,7 +156,7 @@
 					 </p>
 					
 					<h4>Bio:</h4>
-					<p> Alexa received her undergraduate degree in Civil Engineering at the University of Wisconsin-Madison in 2015. She is now pursuing a Master’s degree in the same field with a focus on Water Resources Engineering. During her undergraduate career Alexa’s research involved modeling daily variations in temperature and oxygen profiles in a dimictic lake as driven by atmospheric data. She used this to examine how a changing climate could cause temperature and oxygen stress for coldwater fish. As an intern at the Wisconsin Department of Transportation, Alexa worked to update and improve a comprehensive atlas identifying sections of the Wisconsin interstates that are at risk of flooding during a 100-year event. Today she researches the effects of rainfall rate averaging on runoff estimation using a one-dimensional infiltration model. </p>
+					<p> Alexa received her undergraduate degree in Civil Engineering at the University of Wisconsin-Madison in 2015. She is now pursuing a Master's degree in the same field with a focus on Water Resources Engineering. During her undergraduate career Alexa's research involved modeling daily variations in temperature and oxygen profiles in a dimictic lake as driven by atmospheric data. She used this to examine how a changing climate could cause temperature and oxygen stress for coldwater fish. As an intern at the Wisconsin Department of Transportation, Alexa worked to update and improve a comprehensive atlas identifying sections of the Wisconsin interstates that are at risk of flooding during a 100-year event. Today she researches the effects of rainfall rate averaging on runoff estimation using a one-dimensional infiltration model. </p>
 				</div>
 			</div>
 
@@ -217,7 +217,7 @@
 		</div>
 		</div>
 		<div class="copyright">
-			<p>© 2017 University of Wisconsin Madison</p>
+			<p>University of Wisconsin Madison</p>
 		</div>
 	</footer>
 
